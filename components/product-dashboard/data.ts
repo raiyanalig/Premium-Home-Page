@@ -1,0 +1,40 @@
+import type { Job } from "./types";
+
+export const jobs: Job[] = [
+  {
+    id: "product-strategy",
+    title: "Senior Product Strategist",
+    company: "Ternary Systems",
+    location: "New York, NY",
+    workplace: "Hybrid",
+    type: "Full-time",
+    match: 92,
+    skills: ["Product strategy", "Systems thinking", "Customer research"],
+    matchReasons: ["Your product discovery work aligns with this role's research remit.", "The role values cross-functional decision-making, a strength in your experience."],
+    status: "Saved",
+  },
+  {
+    id: "platform-product",
+    title: "Product Manager, Platform",
+    company: "Northstar Health",
+    location: "Remote, United States",
+    workplace: "Remote",
+    type: "Full-time",
+    match: 86,
+    skills: ["Platform products", "Roadmapping", "Data fluency"],
+    matchReasons: ["Your platform experience maps directly to the team's core product surface.", "Your career goals favor the strategic ownership this position offers."],
+    status: "Applied",
+  },
+  {
+    id: "growth-product",
+    title: "Product Lead, Growth",
+    company: "Aperture Studio",
+    location: "San Francisco, CA",
+    workplace: "Hybrid",
+    type: "Full-time",
+    match: 81,
+    skills: ["Experiment design", "Growth strategy", "Lifecycle"],
+    matchReasons: ["Your experimentation background is a close fit for this growth-focused team.", "The role offers a practical path toward the leadership scope you selected."],
+    status: "Interview",
+  },
+];
